@@ -18,7 +18,7 @@ library(ggplot2)
 ```
 
 #### Summary
-###### Leave in the Morning, fly Alaska Airlines Inc., and fly from JFK airport may avoid delays as much as possible.
+###### Leave in the morning, fly Alaska Airlines Inc., and fly from JFK airport may avoid delays as much as possible.
 
 #### time of day
 ```{r}
