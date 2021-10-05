@@ -24,7 +24,7 @@ library(ggplot2)
 ```{r}
 avgdelay = flights %>%
   group_by(hour) %>%
-  summarise(n = n(), arr_delay = mean(arr_delay, na.rm = TRUE)) %>%
+  summarise(arr_delay = mean(arr_delay, na.rm = TRUE)) %>%
   arrange(arr_delay) 
 
 ggplot(data = avgdelay, aes(x= hour, y = arr_delay)) + 
